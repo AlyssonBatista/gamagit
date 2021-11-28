@@ -1,11 +1,10 @@
 import React from 'react';
-import Routes from './routes';
-import './App.css';
+import {rota as  Routes} from './routes';
+
 
 function App() {
-   
-  return (   
-    <Routes />
+  return (  
+    <Routes/>
   );
 }
 
