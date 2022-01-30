@@ -8,7 +8,7 @@ function App(props) {
   const [usuario, setUsuario] = useState('');
   const history = useNavigate();
   function handlePesquisa(){
-   axios.get(`https://api.github.com/users/${usuario}/repos`).then(response => {
+   axios.get(` https://api.github.com/users/${usuario}/repos`).then(response => {
      const repositories = response.data;
      const repositoriesName = [];
      repositories.map((repository) => {
